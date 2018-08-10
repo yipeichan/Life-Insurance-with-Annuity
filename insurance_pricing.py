@@ -8,7 +8,7 @@ class file:
              self.new=new
              self.previous=previous        
      def readMortality(sex):  #read data
-             Location = r'C:\Users\i9f00211\Desktop\pricing_program\mortality.csv'
+             Location = r'/users/yi-peichan/desktop/pricing_program/mortality.csv'
              df = pd.read_csv(Location)
              mMortality=df['male']
              fMortality=df['female']
