@@ -1,5 +1,5 @@
 # Life-Insurance-with-Annuity
-A pricing program for a whole-life life insurance with annuity
+This is a pricing program for a whole-life life insurance with annuity
 
 This is a pricing program for a life insurance with premium payment peiord of 20 years and the following benefits
 1. Death/ Total disability benefit:
