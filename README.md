@@ -1,7 +1,7 @@
 # Life-Insurance-with-Annuity
-This is a pricing program for a whole-life life insurance with annuity
 
-This is a pricing program for a life insurance with premium payment peiord of 20 years and the following benefits
+This is a pricing program for a life insurance with premium payment peiord of 20 years and the following benefits:</br> 
+
 1. Death/ Total disability benefit:
    - during the premium payment peroid (<=the 20th policy year):</br> 
      max(policy value, 1.06 times total premium paid, 3 times of amount insured)</br> 
