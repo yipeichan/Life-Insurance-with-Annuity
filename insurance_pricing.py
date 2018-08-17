@@ -153,12 +153,12 @@ while True:
      for i in range(0,pt):
           if i>0:
                pricingVs[i]=pricingV[i]+termpB[i-1]+survB[i-1]  #pricing 保價含生存保險金
-               pricingV[i]=(deathPVlist[i]+termPlist[i]+survPlist[i])-aDuelist[i]*p2
+               pricingV[i]=max((deathPVlist[i]+termPlist[i]+survPlist[i])-aDuelist[i]*p2,0)
                if i<=ppp-1:deathBV[i]=(pricingV[i]+pricingVs[i+1]+p2)/2
                else: deathBV[i]=(pricingV[i]+pricingVs[i+1])/2
                #else: deathBV[i]=(pricingV[i]+survB[i]+termpB[i])/2
           else: #i=0
-               pricingV[i]=(deathPVlist[i]+termPlist[i]+survPlist[i])-aDuelist[i]*NP
+               pricingV[i]=max((deathPVlist[i]+termPlist[i]+survPlist[i])-aDuelist[i]*NP,0)
                deathBV[i]=(pricingV[i]+pricingVs[i+1]+p1)/2     
           if i<=ppp-1:  ###death benefit with premium included to take max.
                deathB[i]=max(deathBV[i],1.06*np.ceil(GP*unit)/unit*(i+1),3)
