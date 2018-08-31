@@ -8,7 +8,7 @@ class file:
              self.new=new
              self.previous=previous        
      def readMortality(sex):  #read data
-             Location = r'/users/yi-peichan/desktop/pricing_program/mortality.csv'
+             Location = r'C:\Users\i9f00211\Desktop\pricing_program\mortality.csv'
              df = pd.read_csv(Location)
              mMortality=df['male']
              fMortality=df['female']
@@ -17,8 +17,8 @@ class file:
              else:return fMortality
 
 ##### basic information
-age=25#input("Test_age= ")
-#age=int(age)
+age=input("Test_age=")
+age=int(age)
 #GP=0.077 #=[]
 
 sex=0 #input("male=0, female=1: ")
@@ -144,9 +144,12 @@ pricingVs=[0]*(pt+1) #pricing 保價 含年金 因為deathBV最後一年所以+
 p1=0
 p2=0
 p1D=0
-NPt=2
-GP=0
+NPt=0  ###assumption value
+GP=2   ###assumption value
 j=0 #計算收斂
+#############################
+#GP=0.0483035273
+#############################
 while True:
      j=j+1
      termpB[pt-1]= 1.06*np.ceil(GP*unit)/unit*ppp    
@@ -198,12 +201,14 @@ while True:
      p1=p1SAH+p1D
      p2=p2SAH+p2D
      NP=(deathPVlist[0]+termP+survP)/aDue
+     loadingT=1-NP/GP    ###loading under tests
      GP=NP/(1-loading)
+     #error=np.absolute(GP-GPt)
+     #error=np.absolute(NP-NPt)
+     error=np.absolute(loadingT-loading)   
      if j<=100:
-          print(NP)
-     #error=np.absolute(GP-GPt)     
-     error=np.absolute(NP-NPt)
-     if error<0.00000001:
+          print(NP, GP)
+     if error<0.000001:
           print('NP=',NP)
           print('GP=',NP/(1-loading))
           break
