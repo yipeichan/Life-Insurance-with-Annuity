@@ -9,9 +9,9 @@ This is a pricing program for a life insurance with premium payment peiord of 20
      max(policy value, 1.06 times total premium paid, 1 time of amount insured)</br> 
 2. Life annuity:</br> 
    - payable annually 
-   - during the premium payment peroid (<=the 20th policy year):</br> 
+   - during the premium payment peroid ( before the 20th policy year):</br> 
      5% of the premium</br> 
-   - after the premium payment period (>=the 21st policy year):</br>
+   - after the premium payment period ( after the 20th policy year):</br>
      50% of the premium</br> 
 3. Endowment:</br> 
    When the policy holder reaches age 105, the endowment is paid as 1.06 times the total premium paid
