@@ -20,8 +20,9 @@ class file:
 age=input("Test_age=")
 age=int(age)
 #GP=0.077 #=[]
-
-sex=0 #input("male=0, female=1: ")
+loading=input("Test_loading=")
+loading=float(loading) 
+sex=int(input("male=0, female=1: "))
 ppp=20 #input("_ppp, premium payment period= ")
 pt=105-age
 
@@ -40,7 +41,7 @@ channel=1
 exchange=30 #exchange rate
 ## age distribution of policyholders for profit analysis 代表年齡對照表
 ageDist=[]
-for i in range(0, 55):
+for i in range(0, age):
      ageDist.append(np.floor(i/10))
 
 ################## Pricing
@@ -60,7 +61,7 @@ else:
     popDeath.append(fMortality[age])
     for i in range(0,pt-1):
         popSurv.append(popSurv[i]-popDeath[i]) #survival at the end of the year 期末生存人數
-        popDeath.append(mMortality[age+i+1]*popSurv[i+1])
+        popDeath.append(fMortality[age+i+1]*popSurv[i+1])
 
 
 ###########################################################
@@ -71,14 +72,8 @@ mC=[0]*112
 mD=[0]*112
 mM=[0]*112
 mN=[0]*112
-fLx=[0]*112
-fDx=[0]*112
-fC=[0]*112
-fD=[0]*112
-fM=[0]*112
-fN=[0]*112
 
-mLx[0]=fLx[0]=10000000
+mLx[0]=10000000
 if sex==0:
     for i in range(0,111):
         mDx[i]=(mLx[i]*mMortality[i])
@@ -96,13 +91,13 @@ if sex==0:
     px20=Mx/(Nx-Nx20)               #其他變數在修正制保費部分
 else:
     for i in range(0,111):
-        fDx[i]=(fLx[i]*fMortality[i])
-        fLx[i+1]=(fLx[i]-fDx[i])
-        fC[i]=fDx[i]*v**(i+0.5)
-        fD[i]=fLx[i]*v**(i)    
+        mDx[i]=(mLx[i]*fMortality[i])
+        mLx[i+1]=(mLx[i]-mDx[i])
+        mC[i]=mDx[i]*v**(i+0.5)
+        mD[i]=mLx[i]*v**(i)    
     for i in range(110,-1,-1):
-        fM[i]=fC[i]+fM[i+1]
-        fN[i]=fD[i]+fN[i+1]
+        mM[i]=mC[i]+mM[i+1]
+        mN[i]=mD[i]+mN[i+1]
     Dx=mD[age]
     Mx=mM[age]
     M99=mM[105]
@@ -134,7 +129,7 @@ pricingV=[0]*(pt+1) #pricing 保價
 
 
 #身故全殘_保價deathPV
-loading=10/100
+#loading=10/100
 deathPV=0             #for pricing death V
 deathPVlist=[0]*(pt+1)    #for pricing death V
 NP=0
@@ -208,7 +203,7 @@ while True:
      error=np.absolute(loadingT-loading)   
      if j<=100:
           print(NP, GP)
-     if error<0.000001:
+     if error<0.000000000001:
           print('NP=',NP)
           print('GP=',NP/(1-loading))
           break
