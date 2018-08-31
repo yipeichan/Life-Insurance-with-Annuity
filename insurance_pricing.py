@@ -204,7 +204,7 @@ while True:
      #error=np.absolute(GP-GPt)     
      error=np.absolute(NP-NPt)
      if error<0.00000001:
-          print('NP=',NP)
+          print('NP=',NP)
           print('GP=',NP/(1-loading))
           break
      elif j>2500:
