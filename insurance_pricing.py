@@ -141,7 +141,7 @@ p2=0
 p1D=0
 NPt=0  ###assumption value
 GP=2   ###assumption value
-j=0 #計算收斂
+j=0    # the counting number for gauging convergence of the net premium 計算收斂
 #############################
 #GP=0.0483035273
 #############################
@@ -150,7 +150,7 @@ while True:
      termpB[pt-1]= 1.06*np.ceil(GP*unit)/unit*ppp    
      for i in range(0,pt):
           if i>0:
-               pricingVs[i]=pricingV[i]+termpB[i-1]+survB[i-1]  #pricing 保價含生存保險金
+               pricingVs[i]=pricingV[i]+termpB[i-1]+survB[i-1]  #pricing 保價含生存保險金 policy value with annuity amount included
                pricingV[i]=max((deathPVlist[i]+termPlist[i]+survPlist[i])-aDuelist[i]*p2,0)
                if i<=ppp-1:deathBV[i]=(pricingV[i]+pricingVs[i+1]+p2)/2
                else: deathBV[i]=(pricingV[i]+pricingVs[i+1])/2
