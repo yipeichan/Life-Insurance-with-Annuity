@@ -40,4 +40,6 @@ n: premium payment period <br>
 <br>
 
 ## Pricing Program Applications
+The program starts with asking you to enter information about the age, loading and the sex you want to test. The loading is the markup of net premium, which is one source of the profits that insurance company earns. After entering the information you want to know, the program would demonstrate the asymptotic process and generate the result if the premium converges under the conditions you entered. 
+
 
