@@ -16,5 +16,5 @@ This is a pricing program for a life insurance with premium payment peiord of 20
 3. Endowment:</br> 
    When the policy holder reaches age 105, the endowment is paid as 1.06 times the total premium paid
 
-The motality rate was based on the Taiwan Life Table fifth edition and proveided as a csv file in the following 
+The motality rate was based on the Fifth Life Experience Table of Taiwan Life Insurance Industry and proveided as a csv file in the following 
 
