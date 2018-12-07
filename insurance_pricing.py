@@ -202,8 +202,11 @@ while True:
      #error=np.absolute(NP-NPt)
      error=np.absolute(loadingT-loading)   
      if j<=100:
-          print(NP, GP)
+          if j%10==0:
+              print(NP, GP)
      if error<0.000000000001:
+          print('---------------------------------')
+          print('the premium converges with', j,'times of loop')
           print('NP=',NP)
           print('GP=',NP/(1-loading))
           break
