@@ -22,6 +22,7 @@ The motality rate was based on the Fifth Life Experience Table of Taiwan Life In
 
 ## Pricing Algorithm
 n: premium payment period <br>
+<br>
 <b>1. Death/ Total Disability Benefit</b> <br>
 <img width="322" alt="screen shot 2018-12-07 at 11 31 55 pm" src="https://user-images.githubusercontent.com/24948460/49656443-555d5680-fa78-11e8-9f5f-dcc66b8bdbe3.png">
 <br>
@@ -34,5 +35,9 @@ n: premium payment period <br>
 <b>3. Endowment</b><br>
 <img width="429" alt="screen shot 2018-12-07 at 11 31 43 pm" src="https://user-images.githubusercontent.com/24948460/49656445-55f5ed00-fa78-11e8-96e5-687063f8050c.png">
 
-<b>4. InsurancePremium</b> <br>
+<b>4. Insurance Premium</b> <br>
 <img width="552" alt="screen shot 2018-12-07 at 11 31 20 pm" src="https://user-images.githubusercontent.com/24948460/49656446-55f5ed00-fa78-11e8-8ae4-f6b02ad98857.png">
+<br>
+
+## Pricing Program Applications
+
