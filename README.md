@@ -28,12 +28,12 @@ n: premium payment period <br>
 <br>
 
 <b>2. Annuity</b><br>
-<img width="354" alt="screen shot 2018-12-07 at 11 31 50 pm" src="https://user-images.githubusercontent.com/24948460/49656444-55f5ed00-fa78-11e8-8ec8-454c25a00715.png">
+<img width="429" alt="screen shot 2018-12-07 at 11 31 43 pm" src="https://user-images.githubusercontent.com/24948460/49656445-55f5ed00-fa78-11e8-96e5-687063f8050c.png">
 
 <br>
 
 <b>3. Endowment</b><br>
-<img width="429" alt="screen shot 2018-12-07 at 11 31 43 pm" src="https://user-images.githubusercontent.com/24948460/49656445-55f5ed00-fa78-11e8-96e5-687063f8050c.png">
+<img width="354" alt="screen shot 2018-12-07 at 11 31 50 pm" src="https://user-images.githubusercontent.com/24948460/49656444-55f5ed00-fa78-11e8-8ec8-454c25a00715.png">
 
 <b>4. Insurance Premium</b> <br>
 <img width="552" alt="screen shot 2018-12-07 at 11 31 20 pm" src="https://user-images.githubusercontent.com/24948460/49656446-55f5ed00-fa78-11e8-8ae4-f6b02ad98857.png">
