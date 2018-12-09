@@ -21,6 +21,7 @@ This is a pricing program for a life insurance with premium payment peiord of 20
 The motality rate was based on the Fifth Life Experience Table of Taiwan Life Insurance Industry and proveided as a csv file in the following <br>
 
 <br>
+
 ## An Insurance Policy Catered to Human Life Cycle
 <div class="f">
 The main target client group of this contract are people aged between 20 to 55. People in such age range are often those who bring home the backon; they go out to work, on business trevels frequently, which exposed them to higher risks on streets or abroad. Once accidents strike, he/she may lose the ability to work, affecting financial situation of entire family. Therefore during the premium payment period, which is 20 years, the policy provides high leverage of death coverage compared to the amount of premium paid. After 20 years, it would be the time of retirment, and the policy provides 50% of the annual premium until the insured reaches age 105. The annuity helps policy beneficiaries prevent money shortage in face of prolonged life expectancy.<br><br></div>
