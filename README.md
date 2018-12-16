@@ -34,7 +34,7 @@ The main target client group of this contract are people aged between 20 to 55. 
 n: premium payment period <br>
 <br>
 <b>1. Death/ Total Disability Benefit</b> <br>
-<img width="322" alt="screen shot 2018-12-07 at 11 31 55 pm" src="https://user-images.githubusercontent.com/24948460/49656443-555d5680-fa78-11e8-9f5f-dcc66b8bdbe3.png">
+<img width="552" alt="screen shot 2018-12-07 at 11 31 20 pm" src="https://user-images.githubusercontent.com/24948460/49656446-55f5ed00-fa78-11e8-8ae4-f6b02ad98857.png">
 <br>
 
 <b>2. Annuity</b><br>
@@ -46,7 +46,7 @@ n: premium payment period <br>
 <img width="354" alt="screen shot 2018-12-07 at 11 31 50 pm" src="https://user-images.githubusercontent.com/24948460/49656444-55f5ed00-fa78-11e8-8ec8-454c25a00715.png">
 
 <b>4. Insurance Premium</b> <br>
-<img width="552" alt="screen shot 2018-12-07 at 11 31 20 pm" src="https://user-images.githubusercontent.com/24948460/49656446-55f5ed00-fa78-11e8-8ae4-f6b02ad98857.png">
+<img width="322" alt="screen shot 2018-12-07 at 11 31 55 pm" src="https://user-images.githubusercontent.com/24948460/49656443-555d5680-fa78-11e8-9f5f-dcc66b8bdbe3.png">
 <br>
 
 ## Pricing Program Applications
