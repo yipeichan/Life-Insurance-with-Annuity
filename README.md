@@ -1,5 +1,6 @@
 # Life-Insurance-with-Annuity
-
+<a href="https://yipeichan.github.io"><b>Link to additional explanations</b></a>
+<br>
 ## Introduction
 This is a pricing program for a life insurance with premium payment peiord of 20 years and the following benefits:</br> 
 <b>1. Death/ Total disability benefit:</b><br>
