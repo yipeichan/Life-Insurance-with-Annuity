@@ -31,7 +31,9 @@ The main target client group of this contract are people aged between 20 to 55. 
 <br>
 
 ## Pricing Algorithm
-n: premium payment period <br>
+n: premium payment period<br> 
+i: assumed interest rate<br> 
+x: age insured<br> 
 <br>
 <b>1. Death/ Total Disability Benefit</b> <br>
 <img width="552" alt="screen shot 2018-12-07 at 11 31 20 pm" src="https://user-images.githubusercontent.com/24948460/49656446-55f5ed00-fa78-11e8-8ae4-f6b02ad98857.png">
@@ -54,7 +56,7 @@ n: premium payment period <br>
 The program starts with asking you to enter information about the age, loading and the sex you want to test. The loading is the markup of net premium, which is one source of the profits that insurance companies earn, and most of the time the source of agent commissions. After entering the information you want to know, the program would demonstrate the asymptotic process and generate the result if the premium converges under the conditions you entered. 
 <br>
 For example, to price the insured who is
-
+<br>
 1. male, aged 35, and the loading set to be 10% <br>
 <img width="945" alt="screen shot 2018-12-08 at 12 08 48 am" src="https://user-images.githubusercontent.com/24948460/49659079-61e4ad80-fa7e-11e8-8da2-9278f7d3bf67.png">
 <br>
