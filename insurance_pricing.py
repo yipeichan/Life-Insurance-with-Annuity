@@ -142,7 +142,7 @@ p1D=0
 NPt=0  ###assumption value
 GP=2   ###assumption value
 j=0    # the counting number for gauging convergence of the net premium 計算收斂
-#############################
+############################# for debug and verification process 
 #GP=0.0483035273
 #############################
 while True:
@@ -198,8 +198,8 @@ while True:
      NP=(deathPVlist[0]+termP+survP)/aDue
      loadingT=1-NP/GP    ###loading under tests
      GP=NP/(1-loading)
-     #error=np.absolute(GP-GPt)
-     #error=np.absolute(NP-NPt)
+     #error=np.absolute(GP-GPt) #for debug and verification process 
+     #error=np.absolute(NP-NPt) 
      error=np.absolute(loadingT-loading)   
      if j<=100:
           if j%10==0:
