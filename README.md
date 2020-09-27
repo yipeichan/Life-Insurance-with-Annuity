@@ -32,7 +32,7 @@ The main target client group of this contract are people aged between 20 to 55. 
 <br>
 
 ## Pricing Algorithm
-n: premium payment period<br> 
+n: premium paying term<br> 
 i: assumed interest rate<br> 
 x: age insured<br> 
 <br>
