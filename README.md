@@ -4,16 +4,16 @@
 ## Introduction
 This is a pricing program for a life insurance with premium payment peiord of 20 years and the following benefits:</br> 
 <b>1. Death/ Total disability benefit:</b><br>
-   - during the premium payment peroid (<=the 20th policy year):<br> 
+   - during the premium paying term (<=the 20th policy year):<br> 
      max(policy value, 1.06 times total premium paid, 3 times of amount insured)<br> 
-   - after the premium payment period (>=the 21st policy year):<br> 
+   - after the premium paying term (>=the 21st policy year):<br> 
      max(policy value, 1.06 times total premium paid, 1 time of amount insured)</br> 
 
 <b>2. Life annuity:</b></br> 
    - payable annually <br>
-   - during the premium payment peroid ( before the 20th policy year):<br> 
+   - during the premium paying term ( before the 20th policy year):<br> 
      5% of the premium<br> 
-   - after the premium payment period ( after the 20th policy year):<br>
+   - after the premium paying term ( after the 20th policy year):<br>
      50% of the premium 
 
 <b>3. Endowment:</b><br> 
@@ -25,7 +25,7 @@ The motality rate was based on the Fifth Life Experience Table of Taiwan Life In
 
 ## An Insurance Policy Catered to Human Life Cycle
 <div class="f">
-The main target client group of this contract are people aged between 20 to 55. People in such age range are often those who bring home the backon; they go out to work, on business trevels frequently, which exposed them to higher risks on streets or abroad. Once accidents strike, he/she may lose the ability to work, affecting financial situation of entire family. Therefore during the premium payment period, which is 20 years, the policy provides high leverage of death coverage compared to the amount of premium paid. After 20 years, it would be the time of retirment, and the policy provides 50% of the annual premium until the insured reaches age 105. The annuity helps policy beneficiaries prevent money shortage in face of prolonged life expectancy.<br><br></div>
+The main target client group of this contract are people aged between 20 to 55. People in such age range are often those who bring home the backon; they go out to work, on business trevels frequently, which exposed them to higher risks on streets or abroad. Once accidents strike, he/she may lose the ability to work, affecting financial situation of entire family. Therefore during the premium paying term, which is 20 years, the policy provides high leverage of death coverage compared to the amount of premium paid. After 20 years, it would be the time of retirment, and the policy provides 50% of the annual premium until the insured reaches age 105. The annuity helps policy beneficiaries prevent money shortage in face of prolonged life expectancy.<br><br></div>
 
 ![financial-plan](https://user-images.githubusercontent.com/24948460/49664603-4e8d0e80-fa8d-11e8-8305-201c7a5ae0c7.png)<font size="xx-small">(photo from omtatsat.tk)</font>
 
