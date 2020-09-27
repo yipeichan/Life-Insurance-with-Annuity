@@ -2,7 +2,7 @@
 <a href="https://yipeichan.github.io"><b>Link to additional explanations</b></a>
 <br>
 ## Introduction
-This is a pricing program for a life insurance with premium payment peiord of 20 years and the following benefits:</br> 
+This is a pricing program for a life insurance with premium paying term of 20 years and the following benefits:</br> 
 <b>1. Death/ Total disability benefit:</b><br>
    - during the premium paying term (<=the 20th policy year):<br> 
      max(policy value, 1.06 times total premium paid, 3 times of amount insured)<br> 
