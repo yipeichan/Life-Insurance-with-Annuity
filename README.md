@@ -3,6 +3,7 @@
 <br>
 ## Introduction
 This program was modified from one of the insurance products that I devised. It launched the market on November 30th 2017, and had a pretty good sales record. The insurance contract has a premium paying term of 20 years and provides benefits as follows, </br> 
+</br> 
 <b>1. Death/ Total disability benefit:</b><br>
    - during the premium paying term (<=the 20th policy year):<br> 
      max(policy value, 1.06 times total premium paid, 3 times of amount insured)<br> 
